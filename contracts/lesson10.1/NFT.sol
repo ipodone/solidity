@@ -73,4 +73,6 @@ contract NFT {
     uint256 public auctionCounter;
     // 
     // 3. 总结：两者结构类似，都是：一个结构体、一个mapping、一个计数器
+
+    // payable(owner()).transfer(balance);
 }
